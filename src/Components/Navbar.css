@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    gap: 36px;
+    padding: 18px 46px;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    background: white;
+}
+
+.nav a{
+    
+    text-decoration: underline;
+    color: black;
+    
+}
+
+.nav-item a:hover {
+    
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.main-page-link a:hover{
+    background-color: none;
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav {
+        gap: 20px;
+    }
+}

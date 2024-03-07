@@ -1,0 +1,430 @@
+.home {
+    display:flex;
+    flex-direction: column;
+    margin-top: 179px;
+}
+.splash {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 93px;
+}
+.name-underline {
+    width: 3000px;
+    height: 38px;
+    display: inline-flex;
+    position: relative;
+    right: 2595px;
+    bottom: 27px;
+    margin-bottom: -27px;
+    z-index: -1;
+    background-color: #DAF2F5;
+    border-bottom: 2px solid #B6CFD3;
+}
+.splash-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 389px;
+}
+
+
+
+.splash-email-animation {
+    display: flex;
+    width: 189;
+    height: 78;
+    margin-left: -30px;
+    margin-top: -15px;
+    
+}
+.splash-email-animation:hover {
+    cursor:pointer;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.work-header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    
+    
+}
+.work-alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.work-panel {
+    display: inline-flex;
+    position: relative;
+    height: 38px;
+    width: 3000px;
+    
+    background-color: #E8E5DA;
+    z-index: -1;
+    top: 17px;
+    left: 2000px;
+    margin-left: -2000px;
+    border-bottom: 2px solid #D1C7BE;
+}
+.work-jogg {
+    display: inline-flex;
+    width: 890px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+
+}
+.work-jogg-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.2s ease-in, background-color 0.2s ease-in;
+}
+.work-jogg-image {
+    display: flex;
+    width: 400px;
+    height: 226px;
+    transition: transform 0.2s ease-in, background-color 0.2s ease-in;
+}
+.work-jogg-underline {
+    display: inline;
+    position: absolute;
+    z-index: -1;
+    top: 830px;
+    left: 0px;
+    background-color: #E8F6F8;
+    width: 90vw;
+    height: 140px;
+    transition: transform 0.2s ease-in, border-bottom 0.2s ease-in;
+}
+.work-statemints {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    width: 890px;
+    
+
+}
+.work-statemints-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.2s ease-in, background-color 0.2s ease-in;
+}
+.work-statemints-image {
+    display: flex;
+    width: 400px;
+    height: 226px;
+    transition: transform 0.2s ease-in, background-color 0.2s ease-in;
+}
+.work-statemints-underline {
+    display: inline;
+    position: absolute;
+    z-index: -1;
+    top: 1110px;
+    right: 0px;
+    background-color: #E7F2E5;
+    width: 95vw;
+    height: 140px;
+    border-bottom: 2px solid #C3D2C1;
+    transition: transform 0.2s ease-in, border-bottom 0.2s ease-in;
+}
+.work-juncphotography {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 890px;
+    gap: 50px;
+    align-items: center;
+
+}
+.work-juncphotography-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    transition: transform 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.work-juncphotography-text:hover,
+.work-statemints-image:hover,
+.work-statemints-text:hover,
+.work-juncphotography-image:hover,
+.work-jogg-text:hover,
+.work-jogg-image:hover {
+    cursor: pointer;
+}
+.work-juncphotography-image {
+    display: flex;
+    width: 400px;
+    height: 226px;
+    transition: transform 0.2s ease-in, background-color 0.2s ease-in;
+}
+.work-jun-underline {
+    display: inline;
+    position: absolute;
+    z-index: -1;
+    top: 1390px;
+    left: 0px;
+    background-color: #E8E5DA;
+    width: 90vw;
+    height: 140px;
+    border-bottom: 2px solid #D1C7BE;
+    transition: transform 0.2s ease-in, border-bottom 0.2s ease-in;
+}
+
+.work-footer {
+    width: 100vw;
+    height: 38px;
+    border-bottom: 2px solid #B6CFD3;
+    background-color: #DAF2F5;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-left: 90px;
+}
+
+.skills-column-a {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.skills-column-b {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.skill-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 350px;
+    height: 71px;
+    gap: 6.5px;
+    text-align: left;
+}
+
+.skill-panel-svg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 71px;
+    width: 66px;
+    background-color: white;
+}
+
+.skill-panel-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    width: 263px;
+}
+
+.skill-panel-text p{
+    font-size: 12px;
+}
+
+.skills-footer {
+    width: 100vw;
+    height: 38px;
+    border-bottom: 2px solid #C3D2C1;
+    background-color: #E7F2E5;
+    margin-top: 76px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 280px;
+    margin-bottom: 100px;
+}
+
+.about-image {
+    display: flex;
+    width: 364px;
+    height: 280px;
+    margin-top: 60px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 506px;
+    height: 280px;
+    gap: 5px;
+}
+
+.about-text h2 {
+    margin-bottom: 0px;
+}
+
+.getintouch {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.getintouch-within {
+    width: 582px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textfield {
+    width: 582px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textfield label {
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    max-width: 240px;
+    position: relative;
+    top: 9px;
+    left: 9px;
+    text-align: center;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 40px;
+    padding: 0px 18px;
+    width: 577px;
+}
+
+input:hover {
+    border-bottom: 2px solid black;
+}
+
+input:active {
+    border: 2px solid black;
+}
+input:focus {
+    border: 2px solid black;
+    outline: none;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    
+    width: 582px;
+}
+.message label {
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    max-width: 230px;
+    position: relative;
+    top: 9px;
+    left: 9px;
+    text-align: center;
+}
+
+label {
+    font-family: "Courier Prime";
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 161px;
+    width: 577px;
+    padding: 8px 18px;
+}
+
+textarea:hover {
+    border-bottom: 2px solid black;
+}
+textarea:active {
+    border-bottom: 2px solid black;
+}
+textarea:focus {
+    border: 2px solid black;
+    outline: none;
+}
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.submit button {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 96px;
+    height: 32px;
+    font-family: "Courier Prime";
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.1s ease-in
+
+}
+
+.submit button h4 {
+    font-family: "Courier Prime";
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: white;
+    transition: color 0.1s ease-in
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover h4 {
+    color: black;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: default;
+}
+
+button:disabled h4 {
+    color: white;
+}
