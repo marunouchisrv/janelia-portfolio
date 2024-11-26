@@ -1,0 +1,115 @@
+.footer-main {
+    background-color: #DAF2F5;
+    border-bottom: 2px solid #B6CFD3;
+    height: 192px;
+    min-height: 192px;
+    padding-top: 30px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-main a {
+    font-family: "Courier Prime";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 9px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+
+}
+.footer-main h6 {
+    font-family: "Courier Prime" !important;
+font-size: 14px !important;
+font-weight: 700 !important;
+line-height: 24px !important;
+letter-spacing: 0.08em !important;
+text-align: left !important;
+text-underline-position: from-font !important;
+text-decoration-skip-ink: none !important;
+margin: 0px !important;
+margin-bottom: -15px !important;
+
+}
+.footer-main p {
+    font-family: "Inter" !important;
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important; 
+    letter-spacing: 0.07em !important;
+    text-align: left !important;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none !important;
+
+}
+
+.footer-personal {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-personal svg {
+    display: flex;
+    width: 39px;
+    height: 39px;
+}
+
+.footer-janelia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.footer-column-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 890px;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-wrapper {
+        width: 340px !important;
+        align-items: center;
+    }
+
+    .footer-columns {
+        gap: 10px;
+    }
+
+    .footer-main {
+        width: 340px;
+        display: none;
+    }
+
+}

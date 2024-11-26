@@ -4,8 +4,9 @@ import './App.css';
 import HomePage from './Pages/HomePage.jsx';
 import Jogg from './Pages/Jogg.jsx';
 import Statemints from './Pages/Statemints.jsx';
-import JunCPhotography from './Pages/JunCPhotography';
+import JunCPhotography from './Pages/Jun.jsx';
 import Nav from "./Components/Navbar";
+
 
 
 
@@ -58,6 +59,7 @@ storeScroll();
         <Route path='/statemints' element ={<Statemints/>} />
         <Route path='/juncphotography' element ={<JunCPhotography/>} />
       </Routes>  
+      
     </div>  
 
   );

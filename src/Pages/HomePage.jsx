@@ -6,11 +6,13 @@ import lottie from "lottie-web";
 
 import useScript from "../Components/useScript";
 import Animation from "../Components/Animation";
+import Animation2 from "../Components/Animation-mobile";
 import juncImage from "../Assets/juncimage.png";
 import joggImage from "../Assets/jogg.png";
 import statemintsImage from "../Assets/statemints.png";
 import procreate from "../Assets/procreate 1.png";
 import about from "../Assets/about.png";
+import FooterMain from "../Components/FooterMain";
 
 
 export default function HomePage() {
@@ -122,19 +124,21 @@ export default function HomePage() {
                     </a>
                 </div>
             </div>
-            <div className="splash-animation">
+            <div className="splash-animation" >
                 <Animation/>
             </div>
+            <div className="splash-animation-mobile">
+                <Animation2/>
+            </div>
         </div>
-        <div className="work">
+        <div className="work" id="work" >
             <div className="work-header">
                 <h2>work</h2>
                 <div className="work-panel"></div>
 
             </div>
             <div className="work-alignment">
-            <div className="work-jogg"
-            >
+            <div className="work-jogg" >
                 <div className="work-jogg-image"
                 style={styles1}
                 onMouseEnter={() => {
@@ -145,7 +149,7 @@ export default function HomePage() {
                     setTranslate1("translate(0px, 0px)");
                     setBorder1("2px solid #B6CFD3")}}
                 onClick={() => {
-                    let path=`/`
+                    let path=`/jogg`
                     navigate(path);
                 }}>
                     <img src={joggImage} alt="jogg screenshot" />
@@ -160,7 +164,7 @@ export default function HomePage() {
                         setTranslate1("translate(0px, 0px)");
                         setBorder1("2px solid #B6CFD3")}}
                     onClick={() => {
-                        let path=`/`
+                        let path=`/jogg`
                         navigate(path);
                     }}>
                 <svg width="267" height="35" viewBox="0 0 267 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -201,7 +205,18 @@ export default function HomePage() {
                 
             </div>
             <div className="work-jogg-underline"
-                style={styles4}></div>
+                style={styles4}
+                onMouseEnter={() => {
+                    setRotate1("rotate(-5deg)");
+                    setTranslate1("translate(0px, -10px)");
+                    setBorder1("12px solid #B6CFD3")}}
+                onMouseLeave={() => {setRotate1("rotate(0deg)")
+                    setTranslate1("translate(0px, 0px)");
+                    setBorder1("2px solid #B6CFD3")}}
+                onClick={() => {
+                    let path=`/jogg`
+                    navigate(path);
+                }}></div>
             <div className="work-statemints">
                 <div className="work-statemints-text"
                     style={styles8}
@@ -212,7 +227,7 @@ export default function HomePage() {
                 setTranslate2("translate(0px, 0px)");
                 setBorder2("2px solid #C3D2C1")}}
                 onClick={() => {
-                    let path=`/`
+                    let path=`/statemints`
                     navigate(path);
                 }}>
                     <svg width="220" height="27" viewBox="0 0 220 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -243,7 +258,7 @@ export default function HomePage() {
                 setTranslate2("translate(0px, 0px)");
                 setBorder2("2px solid #C3D2C1")}}
                 onClick={() => {
-                    let path=`/`
+                    let path=`/statemints`
                     navigate(path);
                 }}>
                     <img src={statemintsImage} alt="statemints screenshot" />
@@ -252,6 +267,16 @@ export default function HomePage() {
             </div>
             <div className="work-statemints-underline"
                 style={styles5}
+                onMouseEnter={() => {setRotate2("rotate(5deg)");
+                setTranslate2("translate(0px, -10px)");
+                setBorder2("12px solid #C3D2C1")}}
+                onMouseLeave={() => {setRotate2("rotate(0deg)");
+                setTranslate2("translate(0px, 0px)");
+                setBorder2("2px solid #C3D2C1")}}
+                onClick={() => {
+                    let path=`/statemints`
+                    navigate(path);
+                }}
                 ></div>
             <div className="work-juncphotography">
                 <div className="work-juncphotography-image"
@@ -263,7 +288,7 @@ export default function HomePage() {
                 setTranslate3("translate(0px, 0px)");
                 setBorder3("2px solid #D1C7BE")}}
                 onClick={() => {
-                    let path=`/`
+                    let path=`/juncphotography`
                     navigate(path);
                 }}>
                     <img src={juncImage} alt="juncphotography screenshot" />
@@ -277,7 +302,7 @@ export default function HomePage() {
                 setTranslate3("translate(0px, 0px)");
                 setBorder3("2px solid #D1C7BE")}}
                 onClick={() => {
-                    let path=`/`
+                    let path=`/juncphotography`
                     navigate(path);
                 }}>
                 <svg width="246" height="27" viewBox="0 0 246 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -298,12 +323,12 @@ export default function HomePage() {
                 setTranslate3("translate(0px, 0px)");
                 setBorder3("2px solid #D1C7BE")}}
                 onClick={() => {
-                    let path=`/`
+                    let path=`/juncphotography`
                     navigate(path);
                 }}>
                 </div>
             </div>
-            <div className="work-footer">
+            <div className="work-footer" id="skills">
 
             </div>
         </div>
@@ -505,12 +530,12 @@ export default function HomePage() {
                     </div>
                 </div>
             </div>
-            <div className="skills-footer">
+            <div className="skills-footer" id="about">
 
             </div>
         </div>
 
-        <div className="about-me">
+        <div className="about-me" >
 
             <div className="about-image">
                 <img src={about} alt="Janelia" />
@@ -519,7 +544,9 @@ export default function HomePage() {
                 <h2>about</h2>
                 <p>I am a digital designer and illustrator with over 10 years of experience working in agencies, start-ups and freelance. I’ve had a passion for art since as long as I can remember, and have always enjoyed learning a variety of methods for visual communication- from interface design to digital art to animation.</p>
 
-                <p>In my free time, I enjoy drawing, playing video games, discovering new places to eat, and hanging out with my husband and my two funny dogs. Feel free to check out some of the</p>
+                <p>In my free time, I enjoy drawing, playing video games, discovering new places to eat, and hanging out with my husband and my two funny dogs. Feel free to check out some of the               <div className="for-fun">
+                    <button onClick={() => window.open("https://itsjanelia.com/", "_blank")}>work i've done for fun</button>
+                  </div></p>
             </div>
         </div>
 
@@ -544,7 +571,7 @@ export default function HomePage() {
                 </div>
                 
                 <div className="submit">
-                    <div class="g-recaptcha" data-sitekey="6Lf80-8mAAAAAExDNCvutRf96jNxnvADzIUOvboQ"></div>
+                    
                     <br/>
                     <button disabled={message==="" || message2===""} type="submit"><h4>submit</h4></button>
                 </div>
@@ -554,7 +581,7 @@ export default function HomePage() {
         </div>
 
 
-
+                    <FooterMain />
     </div>
   )
 }

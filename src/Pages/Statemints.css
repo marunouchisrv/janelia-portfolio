@@ -1,0 +1,959 @@
+.statemints {
+    top: 80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 50px;
+}
+
+.statemints p {
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.statemints h2 {
+    text-align: left;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.highlight-statemints {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding-left: 10px;
+    width: 235px;
+    height: 32px;
+    background-color: #E8F6F8;
+    margin-top: 11px;
+}
+
+.highlight-statemints h6 {
+    margin: 0;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: Inter;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.statemints-header {
+    height: 140px;
+    width: 100%;
+    background-color: #E8F6F6;
+    border-bottom: 2px solid #B6CfD3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.statemints-header svg {
+    margin-top: 20px;
+}
+
+.statemints-headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabular-layout-main-statemints {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 81vw;
+    gap: 62px;
+    overflow: visible;
+
+}
+
+.next-button-statemints {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.next-button-statemints button {
+    border: 0;
+    background-color: white;
+    font-family: "Courier Prime";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 10px;
+    box-shadow: inset 0 -2px 0 -1px black;
+    transition: box-shadow .3s ease-in-out;
+    
+}
+
+.next-button-statemints button:hover {
+    color: white;
+    box-shadow: inset 0 -40px 0 -1px black;
+}
+.timeline-container-main {
+    margin-top: 40px;
+    text-align: left;
+    
+}
+.timeline-container-main h1 {
+    font-family: "Courier Prime";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40.43px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    
+}
+.timeline-container h2 {
+    font-family: "Courier Prime";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.95px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+}
+
+.timeline h6 {
+    font-family: "Courier Prime";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.46px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+
+}
+
+
+.react-tabs {
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+    justify-content: center;
+  }
+  
+  .react-tabs__tab-list {
+    width: 124px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+
+
+  }
+  .stickylist-statemints {
+    position: sticky;
+    top: 80px;
+    overflow: visible;
+    height: 374px;
+  }
+  
+  .react-tabs__tab {
+    display: inline-block;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-family: 'Courier Prime';
+    font-size: 14px;
+    box-shadow: inset 0 -2px 0 -1px black;
+    transition: box-shadow .3s ease-in-out;
+  }
+
+  .react-tabs__tab:hover {
+    color: white;
+    box-shadow: inset 0 -40px 0 -1px black;
+  }
+  
+  .react-tabs__tab--selected {
+    background-color: black;
+    color: white;
+  }
+  
+  .react-tabs__tab--disabled {
+    color: gray;
+    cursor: default;
+  }
+  
+  .react-tabs__tab:focus {
+    outline: none;
+  }
+  
+  .react-tabs__tab:focus:after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    left: -4px;
+    right: -4px;
+    bottom: -5px;
+    background: #fff;
+  }
+  
+  .react-tabs__tab-panel {
+    display: none;
+  }
+  
+  .react-tabs__tab-panel--selected {
+    display: flex;
+    margin: 0 10px;
+    padding: 10px;
+    width: 750px;
+  }
+
+  .about-statemints {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+  }
+
+  .about-statemints-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-statemints-text p {
+    width: 506px;
+  }
+
+  .about-statemints-image {
+    display: flex;
+  }
+
+  .about-statemints-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  .statemints-bg {
+    position: relative;
+    right: 350px;
+    top: 50px;
+  }
+  .about1 {
+    position:absolute;
+    top: 260px;
+  }
+
+  .brand-split {
+    display: flex;
+    flex-direction: row;
+    gap: 73px;
+
+  }
+
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-text p {
+    width: 410px;
+  }
+
+  .brand-img {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .branding-table {
+    width: 1040px;
+    height: 787px;
+    background-color: #2A3647;
+    margin-top: 30px;
+    padding: 49px 53px;
+    gap: 43px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .branding-table h3 {
+    font-family: Courier Prime;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.95px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+  }
+
+  .row1 {
+    display: flex; 
+    flex-direction: row;
+    gap: 26px;
+    justify-content: center;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    justify-content: center;
+  }
+
+  .product-split {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+  }
+
+  .product-text {
+    display: flex;
+    flex-direction: column;
+    width: 506px;
+  }
+
+  .statemints h6 {
+    font-family: Courier Prime;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.95px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 0px;
+    margin-top: 46px;
+
+  }
+
+  .vault {
+    width: 410px;
+  }
+
+  .product-image {
+    position: relative;
+    top: 33px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 660px;
+  }
+  .product-image label {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    right: 120px;
+
+  }
+
+  .product-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+    max-width: 1100px;
+    margin-top: 39px;
+  }
+
+  .statemints-sub {
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+    margin-top: 111px;
+  }
+
+  .statemints-sub-text {
+    display: flex;
+    flex-direction: column;
+    width: 338px;
+  }
+
+  .consumer1 {
+    position: relative;
+    z-index: 2;
+    left: 100px;
+  }
+
+  .how-it-works-statemints {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    align-items: center;
+    margin-top: 92px;
+  }
+
+  .how-it-works-statemints h6 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 269px;
+    margin-top: 30px;
+    margin-bottom: -12px;
+
+  }
+
+  .statemints-card {
+    display: flex;
+    flex-direction: column;
+    width: 339px;
+    align-items: center;
+  }
+  .statemints-card p {
+    width: 269px;
+  }
+
+  .footer-statemints {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 362px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: 200px;
+}
+
+.footer-border {
+    background-color: #DAF2F5;
+    width: 100vw;
+    height: 38px;
+    border-bottom: 2px solid #B6CFD3;
+
+}
+
+.more-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 13px;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.more-projects p {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.more-jogg {
+    width: 636px;
+    height: 86px;
+    background: #E8F6F8;
+    border-bottom: 2px solid #B6CfD3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+
+}
+
+.more-jogg:hover {
+    cursor:pointer
+}
+
+.juns-text {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.juns-text svg {
+    width: 219px;
+}
+
+.more-jun2 {
+    width: 636px;
+    height: 86px;
+    background: #E8E5DA;
+
+    border-bottom: 2px solid #D1C7BE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: nowrap;
+
+}
+
+.more-jun2:hover {
+    cursor:pointer
+}
+
+.mint-text-statemints {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.mint-text svg {
+    width: 154px;
+}
+
+.statemints-product {
+    margin-bottom: 362px;
+}
+
+@media only screen and (max-width: 800px) {
+    .tabular-layout-main-statemints {
+      flex-direction: column;
+      align-items: center;
+      width: 313px;
+      height: auto;
+    }
+    .stickylist-statemints {
+      display: none;
+    }
+
+    .about-statemints-wrapper {
+      flex-direction: column;
+      align-items: center;
+      width: 313px;
+      height: auto;
+      
+    }
+    .about-statemints {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    width: 313px;
+    height: auto;
+    }
+
+    .about-statemints-text {
+      flex-direction: column;
+      align-items: center;
+      width: 313px;
+      height: auto;
+    }
+
+    .about-statemints-text p {
+      width: 313px;
+    }
+
+    .about-statemints-image {
+      display: flex;
+      width: 313px;
+      position: absolute;
+      top: 550px;
+    }
+
+    .about-statemints-image img {
+      width: 313px;
+      height: auto;
+    }
+
+    .brand-text p {
+      width: 313px;
+    }
+    .react-tabs {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .react-tabs__tab-panel  {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .react-tabs__tab-panel--selected {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .statemints {
+      align-items: center;
+    }
+
+    h2 {
+      align-self: flex-start;
+      margin-top: 30px !important;
+    }
+
+    .about-statemints-text .next-button-statemints {
+      margin-top: 300px;
+      margin-bottom: -110px;
+    }
+
+    .highlight-statemints {
+      align-self: flex-start;
+    }
+    
+    .statemints-brand-wrapper {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: -50px;
+      gap: 30px;
+    }
+
+    .statemints-brand {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .brand-split {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .brand-img img {
+      width: 313px;
+      height: auto;
+    }
+
+    .branding-table {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .row1, .row2 {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .branding-table img {
+      width: 313px;
+      height: auto;
+    }
+
+    .statemints-product-wrapper {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .statemints-product-wrapper img {
+      width: 313px;
+      height: auto;
+    }
+
+    .statemints-product {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin-top: -110px;
+      margin-bottom: 0px !important;
+    }
+
+    .product-split {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column-reverse;
+      height: auto;
+      gap: 30px;
+    }
+
+    .product-split img {
+      width: 313px;
+      height: auto;
+    }
+
+    .product-grid {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .product-grid img {
+      width: 313px;
+      height: auto;
+    }
+
+    .statemints-sub {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin-top: 0px;
+    }
+
+    .how-it-works-statemints {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .statemints-card {
+      background-color: #F6F6F6;
+      border-radius: 8px;
+      padding: 20px;
+      width: 313px;
+    }
+
+
+
+    p {
+      max-width: 313px;
+    }
+
+    .product-text {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .vault {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .vault h6 {
+      align-self: flex-start;
+    }
+
+    .product-image {
+      width: 313px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .product-image label {
+      position: static;
+    }
+
+    .statemints-sub-image {
+      margin-top: -20px;
+    }
+
+    .consumer1 {
+      margin: -160px 0px; 
+      left: -80px;
+      top: 260px;
+      width: 300px;
+      height: 300px;
+    }
+
+    .consumer1 img {
+      width: 171px;
+      height: 155.5px;
+    }
+
+    .statemints-card img {
+      width: 196px !important;
+      height: auto;
+    }
+
+
+    .more-projects {
+      flex-direction: column-reverse !important;
+      align-items: center !important;
+      width: 313px;
+      height: auto !important;
+  }
+
+  .more-jogg {
+    display: flex !important;
+    width: 100vw !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 5px;
+    margin-top: 100px !important;
+    margin-bottom: 50px !important;
+    height: 273px !important;
+}
+
+  .juns-text {
+      display: flex;
+      align-items: center !important;
+      justify-content: center;
+      width: 313px !important;
+      position: static !important;
+      overflow: hidden;
+  }
+
+  .juns-text p {
+      position: relative;
+      left: 0px;
+  }
+
+  .juns-text svg {
+      width: 244px !important;
+      height: 42px !important;
+  }
+  
+  .juns-image {
+      position: static !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      margin-top: -60px !important;
+      width: 313px !important;
+  }
+  .juns-image img {
+      width: 310px !important;
+      height: 175px !important;
+  }
+
+  .more-jun2 {
+      display: flex;
+      width: 100vw !important;
+      flex-direction: column-reverse !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 5px;
+      margin-top: 75px !important;
+      margin-bottom: -30px !important;
+      height: 273px !important;
+  }
+  .mint-image {
+      position: relative !important;
+      top: -50px !important;
+  }
+  .mint-image img {
+      width: 310px !important;
+      height: 175px !important;
+  }
+
+  .mint-text-statemints {
+      display: flex;
+      align-items: center !important;
+      width: 313px !important;
+      top: -50px !important;
+      margin: 0px;
+  }
+
+  .mint-text-statemints svg {
+      width: 244px !important;
+      height: 42px;
+  }
+
+  .mint-text p {
+      position: relative !important;
+      left: 20px !important;
+  }
+
+  .footer-border {
+    background-color: #DAF2F5;
+    width: 100vw;
+    min-height: 38px;
+    border-bottom: 2px solid #B6CFD3;
+
+}
+
+  .footer-statemints h2 {
+      font-family: "Courier Prime";
+      font-size: 24px !important;
+      font-weight: 700;
+      line-height: 26.95px !important;
+      letter-spacing: 0.12em !important;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      position: relative !important;
+      left: 3px;
+
+  }
+
+  .footer-statemints {
+    width: 313px;
+    position: static !important;
+    height: auto;
+    align-items: center !important;
+    display: flex;
+    flex-direction: column !important;
+}
+
+
+
+}
+

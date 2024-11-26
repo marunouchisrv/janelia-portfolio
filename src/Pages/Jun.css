@@ -1,0 +1,364 @@
+.jun-main {
+    top: 80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.jun-main p {
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.jun-main h2 {
+    text-align: left;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.jun-header {
+    height: 140px;
+    width: 100%;
+    background-color: #E8E5DA;
+    border-bottom: 2px solid #DDD6CC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jun-header svg {
+    margin-top: 20px;
+}
+
+.jun-headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jun-about {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.jun-about-text {
+    width: 506px;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight-jun {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+    width: 245px;
+    height: 32px;
+    background-color: #E8F6F8;
+    margin-top: 11px;
+}
+
+.highlight-jun h6 {
+    margin: 0;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: Inter;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.jun-about img {
+    margin-top: 50px;
+}
+
+.jun-pages {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.jun-pages p {
+    width: 520px;
+}
+.jun-main h6 {
+    font-family: Courier Prime;
+font-size: 24px;
+font-weight: 700;
+line-height: 26.95px;
+letter-spacing: 0.12em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0px;
+
+}
+.jun-lifestyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.jun-lifestyle img {
+    margin-top: 30px;
+}
+
+.jun-engagement {
+    display:flex;
+    flex-direction: column;
+}
+
+.jun-more {
+    display: flex;
+    flex-direction: column;
+    margin-top: 81px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.jun-more h6 {
+    margin-top: 54px;
+}
+
+
+.jun-more-border {
+    width: 100vw;
+    height: 38px;
+    background: #E8E5DA;
+    border-bottom: 2px solid #D1C7BE;
+}
+
+.footer-statemints {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 362px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.footer-border {
+    background-color: #DAF2F5;
+    width: 100vw;
+    height: 38px;
+    border-bottom: 2px solid #B6CFD3;
+
+}
+
+.more-projects-jun {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 23px;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.more-projects-jun p {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.more-jogg {
+    width: 636px;
+    height: 86px;
+    background: #E7F2E5;
+    border-bottom: 2px solid #C3D2C1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+
+}
+
+.more-jogg:hover {
+    cursor:pointer
+}
+
+.juns-text {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.juns-text svg {
+    width: 154px;
+}
+
+.more-jun2 {
+    width: 636px;
+    height: 86px;
+    background: #E8F6F8;
+
+    border-bottom: 2px solid #B6CFD3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: nowrap;
+
+}
+
+.more-jun2:hover {
+    cursor:pointer
+}
+
+.mint-text {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mint-text svg {
+    width: 154px;
+}
+
+.statemints-product {
+    margin-bottom: 362px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .jun-main {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        height: auto;
+        position: static;
+    }
+
+    .jun-about {
+        flex-direction: column;
+        align-items: center;
+        width: 313px;
+        height: auto;
+        gap: 0px;
+    }
+
+    .jun-about-text {
+        flex-direction: column;
+        align-items: center;
+        width: 313px;
+        height: auto;
+    }
+
+    .jun-about img {
+        width: 313px;
+        height: auto;
+    }
+
+    .jun-header {
+        width: 100vw;
+    }
+
+    .jun-pages {
+        flex-direction: column;
+        align-items: center;
+        width: 313px;
+        height: auto;
+    }
+
+    .jun-pages img {
+        width: 313px;
+        height: auto;
+    }
+
+    .highlight-jun {
+        align-self: flex-start;
+    }
+
+    .jun-pages h6 {
+        font-family: "Courier Prime";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20.21px;
+        letter-spacing: 0.12em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .more-projects-jun {
+        flex-direction: column-reverse;
+    }
+    .more-jun2 {
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+        width: 100vw !important;
+        height: auto;
+    }
+
+    .mint-text {
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 313px !important;
+        height: auto;
+        top: -50px !important;
+    }
+
+    .mint-text p {
+        position: relative !important;
+        left: 0px !important;
+    }
+
+    .mint-image {
+        display: flex;
+        position: relative;
+        top: -30px !important;
+    }
+
+    .more-jun2 svg {
+        width: 244px !important;
+        height: 42px !important;
+    }
+
+    .juns-image {
+        display: flex;
+        position: relative;
+        top: -30px !important;
+    }
+    .juns-text {
+        display: flex;
+        position: relative !important;
+        top: -20px !important;
+    }
+
+}

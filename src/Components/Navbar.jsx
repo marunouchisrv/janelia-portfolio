@@ -23,16 +23,16 @@ export default function Nav() {
         </div>
 
       <div className="nav-item">
-        <a href="#top">work</a>
+        <a href="/#work">work</a>
       </div>
       <div className="nav-item">
-        <a href="#work">skills</a>
+        <a href="/#skills">skills</a>
       </div>
       <div className="nav-item">
-        <a href="#about">about</a>
+        <a href="/#about">about</a>
       </div>
       <div className="nav-item">
-        <a href="#contact">contact</a>
+        <a href="/#contact">contact</a>
       </div>
     </div>
   )
